@@ -1,0 +1,90 @@
+
+
+u1 {
+  font-size: 40px;
+  text-align: center;
+  list-style-type: none;
+}
+
+.page-body{
+  width:50%;
+  margin:auto;
+}
+
+
+.body-title h3{
+  font-size:45px;
+  color:#ffffff;
+}
+
+.options-container{
+  display:flex;
+  
+  margin-top:25px;
+}
+
+.options-container div{
+  width:45%;
+  border-radius:5px;  
+  margin-right:5%;
+  cursor:pointer;
+  border:1px solid rgba(255,255,255,0.5);
+}
+
+.options-container p{
+  margin-top:50px;
+  margin-bottom:50px;
+  font-size:28px;
+  text-align: center;
+  color:#ffffff;
+}
+
+#option-1{
+  background: linear-gradient(130deg, rgba(150,50,50,1) 0%,
+  rgba(50,50,50,0.8) 45%,
+  rgba(150,50,50,1) 100%,
+  rgba(255,255,255,0.5) 100%);
+  background-color: #ff0000;
+
+}
+
+#option-1:hover{
+  background-color: #000000;
+}
+
+#option-2{
+  background: linear-gradient(130deg, rgba(50,150,50,1) 0%,
+  rgba(50,50,50,0.8) 45%,
+  rgba(50,150,50,1) 100%,
+  rgba(255,255,255,0.5) 100%);
+  background-color: #00ff00;
+ 
+}
+
+#option-2:hover{
+  background-color: #000000;
+}
+
+#option-3{
+  background: linear-gradient(130deg, rgba(50,50,150,1) 0%,
+  rgba(50,50,50,0.8) 45%,
+  rgba(50,50,150,1) 100%,
+  rgba(255,255,255,0.5) 100%);
+  background-color: #0000ff;
+}
+
+#option-3:hover{
+  background-color: #000000;
+}
+
+#option-4{
+  background: linear-gradient(130deg, rgba(150,150,10,1) 0%,
+  rgba(50,50,50,0.8) 45%,
+  rgba(150,150,10,1) 100%,
+  rgba(255,255,255,0.5) 100%);
+  background-color: #999900;
+}
+
+#option-4:hover{
+  background-color: #000000;
+}

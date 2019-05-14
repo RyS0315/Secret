@@ -1,0 +1,43 @@
+div.fixed {
+  
+  font-size: 20px;
+  padding:50px;
+  width: 96%;
+  bottom: 15px;
+  border: 1px solid #8c8c8c;
+}
+
+ul {
+  font-size: 20 px;
+  color:#ffffff;
+  list-style-type:none;
+}
+
+li{
+  padding:7px;
+}
+
+.page-body{
+  width:80%;
+  margin:auto;
+}
+
+
+.body-title h3{
+  font-size:45px;
+  color:#ffffff;
+}
+
+
+.fixed h4{
+  font-size:30px;
+  color:#ffffff;
+  margin-bottom:10px;
+  border-bottom: 1px solid #8c8c8c;
+}
+
+.msg{
+  margin-top:10px;
+  color:#ffffff;
+  font-size:18px;
+}

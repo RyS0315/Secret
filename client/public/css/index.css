@@ -1,0 +1,43 @@
+h1{
+  font-family: "Lucida Console", Lucida, monospace;
+  color: #FFEBCD;
+  text-align: center;
+  text-shadow: 2px 2px 8px;
+  font-size: 70px;
+}
+
+#continue p {
+  animation:blinkingText 1.5s infinite;
+  text-align: center;
+  font-size: 50px;
+
+}
+
+@keyframes blinkingText{
+  0%{   color: #FFEBCD;}
+  29%{  color: transparent;}
+  50%{  color: transparent;}
+  79%{  color: transparent;}
+  100%{ color: #FFEBCD;}
+}
+
+
+.img-container{
+  width:70%;
+  height:200px;
+  margin:auto;
+  margin-top:50px;
+}
+
+.img-container img{
+  width:100%;
+  height:100%;
+}
+
+.msg{
+  width:100%;
+  text-align:center;
+  font-size:18px;
+  margin-top:15%;
+  color:#ffffff;
+}

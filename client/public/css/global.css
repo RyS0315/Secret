@@ -1,0 +1,119 @@
+html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed, 
+    figure, figcaption, footer, header, hgroup, 
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+    }
+    /* HTML5 display-role reset for older browsers */
+    article, aside, details, figcaption, figure, 
+    footer, header, hgroup, menu, nav, section {
+        display: block;
+    }
+    body {
+        line-height: 1;
+    }
+    ol, ul {
+        list-style: none;
+    }
+    blockquote, q {
+        quotes: none;
+    }
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content: '';
+        content: none;
+    }
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+
+
+
+   
+
+
+body{
+  margin:0px; 
+  width: auto;
+  background-color: #cccccc;
+}
+
+h1{
+  font-size: 80px;
+  text-align: center;
+  font-family: "Lucida Console", Lucida, monospace;
+  color: #FFEBCD;
+  text-align: center;
+  text-shadow: 2px 2px 8px #FF0000;
+}
+
+.header{
+  margin:auto;
+  width:70%;
+  padding-top:30px;
+}
+
+.header h1{
+  font-size: 80px;
+  margin-bottom:30px;
+  color:#ffffff;
+}
+
+.page-body{
+  height:600px;
+  width:100%;
+}
+
+.footer{
+  height:100px;
+  width:100%;
+  background-color: #000000;
+}
+
+.background-img{
+  position:fixed;
+  height:100%;
+  width:100%;
+  z-index:-4;
+  background-color:#000000;
+}
+
+.bg-img{
+  height:100%;
+  width:100%;
+  overflow:hidden;
+  filter:blur(2px);
+}
+
+.bg-img-cover{
+  position:fixed;
+  height:100%;
+  width:100%;
+  z-index:-3;
+  background-color:rgba(0,0,0, .65);
+}
+
+input{
+  display:block;
+  margin-top:20px;
+  width:30%;
+  border-color:rgb(0,0,0,.15);
+  border-radius:5px;
+  text-indent: 5px;
+  font-size:20px;
+}
